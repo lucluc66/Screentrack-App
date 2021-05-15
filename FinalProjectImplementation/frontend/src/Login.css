@@ -1,0 +1,119 @@
+
+/* Credits to Alison Quaglia for this cool background https://www.sliderrevolution.com/resources/css-animated-background/ */
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+body {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 600% 600%;
+      animation: gradient 15s ease infinite;
+}
+  
+@keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+}
+
+.row {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-bar, #dropd-btn {
+    background-color:transparent;
+    border:none;
+    width: 300px;
+    font-size: 30px;
+    color: Black;
+    margin-right: 0.5rem;
+}
+
+div {
+    text-align: center;
+    margin-right: 0.5rem;
+}
+
+.droptd-content {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:white;
+    border:none;
+    width: 300px;
+    font-size: 30px;
+    color: Black;
+
+}
+
+.droptd-content:hover {
+    background-color:#ddd;
+}
+
+#top-bar:hover, #dropd-btn:hover {
+    background-color: #0d6efd;
+    border-radius: .7rem;
+}
+
+#login{
+    cursor: pointer;
+    width: 300px;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+    color: white;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.form-control {
+
+    width: 300px;
+    font-size: 1.2rem;
+    border-radius: .3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+h1 {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    margin-top: 0;
+    line-height: 1.2;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#newaccount {
+    font-size: medium;
+    border-radius: .3rem;
+    color: white;
+    background-color: #05bb33;
+    border-color: #05bb33;
+    margin-right: 5px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
